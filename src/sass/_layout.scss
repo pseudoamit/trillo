@@ -24,9 +24,14 @@
 .sidebar {
   background-color: var(--color-grey-dark-1);
   flex: 0 0 18%; // grow shrink flex-width
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hotel-view {
   background-color: #fff;
   flex: 1;
+  //TODO: have to remove. only for testing purpose
+  height: 80rem;
 }
