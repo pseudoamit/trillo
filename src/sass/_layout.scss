@@ -32,6 +32,25 @@
 .hotel-view {
   background-color: #fff;
   flex: 1;
-  //TODO: have to remove. only for testing purpose
-  height: 80rem;
+}
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: 1px solid var(--color-grey-light-2);
+}
+
+.description {
+  font-size: 1.4rem;
+  flex: 0 0 60%;
+  background-color: #fff;
+  margin-right: 4.5rem;
+  box-shadow: var(--shadow-light);
+  padding: 2rem;
+}
+
+.user-reviews {
+  flex: 1;
+  background-color: yellowgreen;
 }
